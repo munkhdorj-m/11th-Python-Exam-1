@@ -1,7 +1,4 @@
-# Python Review 4 
-
-Python File handling
-https://drive.google.com/file/d/1sIv9rb6PizW9sfts9eVu0BkLYWLjysiT/view
+# Python Exam
 
 ---
 
@@ -9,20 +6,18 @@ https://drive.google.com/file/d/1sIv9rb6PizW9sfts9eVu0BkLYWLjysiT/view
 
 **Problem:**
 
-Input n numbers as list and write each number to a file called numbers.txt, one number per line.
+Input a number and check whether it is prime using a loop.
 
 **Example:**
 
-    Example Input:
-        [10,20,30,40,50]
+    Input: 7  
+    Output: True
     
-    File Output (numbers.txt):
-        10
-        20
-        30
-        40
-        50
-
+    Input: 12  
+    Output: False
+    
+    Input: 1  
+    Output: False
 
 ---
 
@@ -30,20 +25,16 @@ Input n numbers as list and write each number to a file called numbers.txt, one 
 
 **Problem:**
 
-Read numbers from the file numbers.txt.
-Calculate and print the sum of all numbers.
+Count how many numbers end with 5 from a given list.
 
 **Example:**
 
-    Example File Content (numbers.txt):
-        10
-        20
-        30
-        40
-        50
+    Input: [5, 15, 23, 25, 40]  
+    Output: 3
     
-    Program Output:
-        150
+    Input: [1, 2, 3, 4, 6]  
+    Output: 0
+
 
 ---
 
@@ -51,80 +42,60 @@ Calculate and print the sum of all numbers.
 
 **Problem:**
 
-Create a text file data.txt with some text.
-Count and return the number of lines and the total number of words in the file.
+Each line in transactions.txt contains a transaction amount:
 
-**Example**
+    +200
+    -50
+    +100
+    -30
 
-    Example File Content (data.txt):
-        Python is fun.
-        It helps you learn programming.
-        File handling is important.
+Write a program that:  
+-Reads all transactions from transactions.txt  
+-Calculates the final balance  
+-Writes the result to summary.txt like this:  
 
-    Program Output:
-        3,12   # lines = 3 words = 12
+    Final Balance: 220
 
+    
 ---
 
 ## Exercise 4
 
 **Problem:**
 
-Write a program that reads a file and returns the longest word.
+Create a class called Car that simulates a car accelerating and braking.  
 
-**Example**
+Each Car object must have:  
+-brand (string)  
+-model (string)  
+-speed (starts at 0)  
 
-    Example File Content (data.txt):
-        What's the longest word in here?
-    
-    Program Output:
-         "longest"
+Methods:
 
+accelerate(amount):  
+-Increase speed by amount  
+-Maximum speed is 200  
+-If above 200 → set to 200 
+
+brake(amount):  
+-Decrease speed by amount  
+-Minimum speed is 0  
+
+get_status():  
+-Return string like:  
+-"Toyota Supra — Speed: 120 km/h"  
+
+**Example:**
+
+    Input:
+        car1 = Car("Toyota", "Supra")
+        car1.accelerate(50)
+        car1.accelerate(90)
+        car1.brake(30)
+        
+        print(car1.get_status())
+
+    Output:
+        Toyota Supra — Speed: 110 km/h
     
 ---
-
-## Exercise 5 (Optional)
-
-**Problem:**
-
-Word Guessing Game (like Hangman)
-
--Store a list of words in a file called words.txt.
--The program randomly picks a word from the file.
--The user guesses letters until they find the word (limit wrong guesses to 6).
--Save the game result (win or lose) to results.txt.
-
-**Example**
-
-    Example 1:
-    Word Guessing Game!
-    The word has 7 letters: _ _ _ _ _ _
-    
-    Guess a letter: y
-    Good guess! _ y _ _ _ _
-    
-    Guess a letter: e
-    Wrong guess! 5 tries left.
-    
-    Guess a letter: p
-    Good guess! p y _ _ _ _ 
-    
-    ...
-    
-    Congratulations! You guessed the word: "python"
-    Game result saved to results.txt
-
-    Example 2:
-    Word Guessing Game!
-    The word has 6 letters: _ _ _ _ _ _
-    
-    Guess a letter: z
-    Wrong guess! 5 tries left.
-    
-    ...
-    
-    Sorry, you lost! The word was: "school"
-    Game result saved to results.txt
-
----
-
