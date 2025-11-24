@@ -6,6 +6,25 @@
 
 **Problem:**
 
+Input a number and check if the second last digit is 5. (If the number has less than 2 digits, return False.)
+
+**Example:**
+
+    Input: 157
+    Output: True
+    
+    Input: 432
+    Output: False
+    
+    Input: 5
+    Output: False
+
+---
+
+## Exercise 2
+
+**Problem:**
+
 Input a number and check whether it is prime using a loop.
 
 **Example:**
@@ -21,7 +40,7 @@ Input a number and check whether it is prime using a loop.
 
 ---
 
-## Exercise 2
+## Exercise 3
 
 **Problem:**
 
@@ -38,7 +57,7 @@ Count how many numbers end with 5 from a given list.
 
 ---
 
-## Exercise 3
+## Exercise 4
 
 **Problem:**
 
@@ -59,7 +78,7 @@ Write a program that:
     
 ---
 
-## Exercise 4
+## Exercise 5
 
 **Problem:**
 
