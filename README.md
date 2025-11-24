@@ -66,22 +66,22 @@ Write a program that:
 Create a class called Car that simulates a car accelerating and braking.  
 
 Each Car object must have:  
--brand (string)  
--model (string)  
--speed (starts at 0)  
+-`brand` (string)  
+-`model` (string)  
+-`speed` (starts at 0)  
 
 Methods:
 
-accelerate(amount):  
+`accelerate(amount)`:  
 -Increase speed by amount  
 -Maximum speed is 200  
 -If above 200 → set to 200 
 
-brake(amount):  
+`brake(amount)`:  
 -Decrease speed by amount  
 -Minimum speed is 0  
 
-get_status():  
+`get_status()`:  
 -Return string like:  
 -"Toyota Supra — Speed: 120 km/h"  
 
