@@ -1,7 +1,7 @@
 import pytest
 from pathlib import Path
 
-from assignment import write_numbers_to_file, sum_numbers_in_file, count_lines_words, find_longest_word_in_file
+from assignment import second_last_digit_is_5, is_prime, count_ending_with_5, calculate_balance, Car
 
 @pytest.mark.parametrize("num, expected", [
     (157, True),
