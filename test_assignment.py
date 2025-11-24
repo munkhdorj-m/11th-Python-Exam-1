@@ -1,8 +1,13 @@
 import pytest
+import inspect
 from pathlib import Path
 
 from assignment import second_last_digit_is_5, is_prime, count_ending_with_5, calculate_balance, Car
 
+def check_contains_loop(function):
+    source = inspect.getsource(function)
+    return 'for' in source or 'while' in source
+    
 @pytest.mark.parametrize("num, expected", [
     (157, True),
     (432, False),
