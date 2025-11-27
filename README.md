@@ -44,23 +44,6 @@ Input a number and check whether it is prime using a loop.
 
 **Problem:**
 
-Count how many numbers end with 5 from a given list.
-
-**Example:**
-
-    Input: [5, 15, 23, 25, 40]  
-    Output: 3
-    
-    Input: [1, 2, 3, 4, 6]  
-    Output: 0
-
-
----
-
-## Exercise 4
-
-**Problem:**
-
 Each line in transactions.txt contains a transaction amount:
 
     +200
@@ -78,7 +61,7 @@ Write a program that:
     
 ---
 
-## Exercise 5
+## Exercise 4
 
 **Problem:**
 
