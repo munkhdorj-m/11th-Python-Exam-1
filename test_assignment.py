@@ -2,7 +2,7 @@ import pytest
 import inspect
 from pathlib import Path
 
-from assignment import second_last_digit_is_5, is_prime, count_ending_with_5, calculate_balance, Car
+from assignment import second_last_digit_is_5, is_prime, calculate_balance, Car
 
 def check_contains_loop(function):
     source = inspect.getsource(function)
