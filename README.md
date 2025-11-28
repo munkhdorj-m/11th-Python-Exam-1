@@ -85,7 +85,7 @@ Methods:
 
 `get_status()`:  
 -Return string like:  
--"Toyota Supra — Speed: 120 km/h"  
+-"Toyota Supra - Speed: 120 km/h"  
 
 **Example:**
 
@@ -98,6 +98,6 @@ Methods:
         print(car1.get_status())
 
     Output:
-        Toyota Supra — Speed: 110 km/h
+        Toyota Supra - Speed: 110 km/h
     
 ---
